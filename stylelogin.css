@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+body {
+    display: flex;
+    background: linear-gradient(rgba(31, 0, 116, 0.1), rgba(11, 0, 33, 0.6)), url(/z5870831619309_5c0a6ba3c65006b7efddb21259dd4173.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    /* accent-color: var(--tw-grayscale); */
+    height: 100vh;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.login {
+    width: 350px;
+    height: 430px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 5px rgba(10, 2, 34, 0.78);
+    /* backdrop-filter: blur(6px); */
+    background-color: aliceblue;
+    border-radius: 20px;
+    position: relative;
+}
+
+.login h2 {
+    text-align: center;
+    padding: 2rem 1rem;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+label {
+    padding-left: 20px;
+    color: #5c571f;
+    font-size: 17px;
+}
+
+input::placeholder {
+    color: rgba(32, 6, 6, 0.637);
+}
+
+#username,
+#password {
+    display: flex;
+}
+
+input {
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid black;
+    background-color: transparent;
+    width: 40%;
+    margin: 10px 10px 30px 30px;
+    width: 80%;
+    border-radius: 15px;
+}
+
+button {
+    width: 80%;
+    padding: 20px 20px;
+    justify-content: center;
+    border-radius: 20px;
+    border-style: none;
+    margin-top: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+    background-color: rgba(205, 222, 135, 0.47);
+
+}
+
+p {
+    font-size: 15px;
+    margin: 20px 0 0 20px;
+    color: rgba(14, 75, 75, 0.662);
+}
+
+a {
+    color: rgba(8, 25, 25, 0.562);
+    text-decoration: none;
+    cursor: pointer;    
+    font-size: 20px;
+}
+.register{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 5px rgba(10, 2, 34, 0.78);
+    /* backdrop-filter: blur(3px); */
+    background-color:white ;
+    border-radius: 20px;
+    position: relative;
+}
+.box{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 22px;
+}
+.box input{
+    margin-bottom: 5px;
+}
+#nam,#nu{
+    display: inline;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 !important;
+    margin-top: 10px;
+    width: 13px;
+}
+.box .nhan{
+    margin-bottom: 5px;
+}
+.register .dangki{
+    margin:10px 10px 40px 30px ;
+}
+.register .dangki button a{
+    font-size: 20px;
+    color: rgba(15, 50, 50, 0.831);
+}
+.register input{
+    padding: 5px 20px;
+    outline: none;
+    border: 1px solid black;
+    background-color: transparent;
+    width: 40%;
+    margin: 3px 3px 3px 3px;
+    width: 80%;
+    border-radius: 15px;
+}
+.register h2{
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: 700;
+}
+form.register label{
+    font-size: 15px;
+}
+.register button{
+    padding: 8px;
+}
